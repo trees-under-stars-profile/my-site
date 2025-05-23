@@ -15,13 +15,13 @@
       background-repeat: no-repeat;
       background-attachment: scroll;
       color: white;
-      font-family: 'Times New Roman', Times, serif;
+      font-family: 'Roboto';
     }
 
     .content {
       padding: 2em;
-      max-width: 800px;
-      margin: 5vh auto;
+      max-width: 1100px;
+      margin: 1vh auto;
     }
 
     h2, h4, small {
@@ -29,7 +29,7 @@
     }
     
     h2 {
-      margin-top: 4em;
+      margin-top: 2em;
       margin-bottom: 0.2em;
     }
     
@@ -53,106 +53,161 @@
 <body>
   <div class="content">
     <h2>PENDEM SANJAY</h2>
-      <h4>Last updated: 22:15 19-05-2025</h4>
-    <div class="position">
-    </div>
-  </div>
+      <h4>Last updated: 21:58 18-05-2025</h4>
 
-  <div class="content">
     <h2>EXPERIENCE</h2>
+    
 
-    <div class="position">
-      <h4>Trainee - AI/ML <small>[June 2024 - Present]</small></h4>
-      <ul>
-        <li>Built a customer support AI agent which takes audio query from human and responds using its voice with low latency.</li>
-        <li>Worked on voice cloning & speech generation tasks to convert text data into audio using local & proprietary LLMs.</li>
-        <li>Created a multi-agent workflow to automate email replies based on the provided insurance claims information.</li>
-      </ul>
-    </div>
+    <table style="width:100%; border-collapse: collapse; border: 1px solid #ccc;">
+      <tbody>
 
-    <div class="position">
-      <h4>Deep Learning Intern <small>[Jul 2023 - Oct 2023]</small></h4>
-      <ul>
-        <li>Performed YouTube Video Classification using Title, Description, and Subtitles of 36 different video genres.</li>
-        <li>Utilized LSTM model and fine-tuned BERT model, achieving F1-scores of 0.7824 and 0.9382 respectively.</li>
-        <li>Attempted Neural Architecture Search and ONNX optimization methods to improve the model's accuracy.</li>
-      </ul>
-    </div>
+        <tr>
+          <td style="vertical-align: top; padding: 10px; border: 1px solid #ccc;">
+            Trainee - AI/ML<br>
+            <small>[June 2024 - Present]</small>
+          </td>
+          <td style="vertical-align: top; padding: 10px; border: 1px solid #ccc;">
+            <ul>
+              <li>Built a customer support AI agent which takes audio query from human and responds using its voice with low latency.</li>
+              <li>Worked on voice cloning & speech generation tasks to convert text data into audio using local & proprietary LLMs.</li>
+              <li>Created a multi-agent workflow to automate email replies based on the provided insurance claims information.</li>
+            </ul>
+          </td>
+        </tr>
 
-    <div class="position">
-      <h4>Machine Learning Project Intern <small>[Jan 2023 - May 2023]</small></h4>
-      <ul>
-        <li>Trained a Pix2Pix model for recoloring images to help with diagnosing patients with color vision deficiency.</li>
-        <li>The GAN-generated images had an error rate of less than 0.05 (MSE) compared to the actual simulated images.</li>
-        <li>Configured the model to perform recoloring on videos as well. We learned/used Agile methodology in this project.</li>
-      </ul>
-    </div>
+        <tr>
+          <td style="vertical-align: top; padding: 10px; border: 1px solid #ccc;">
+            Deep Learning Intern<br>
+            <small>[Jul 2023 - Oct 2023]</small>
+          </td>
+          <td style="vertical-align: top; padding: 10px; border: 1px solid #ccc;">
+            <ul>
+              <li>Performed YouTube Video Classification using Title, Description, and Subtitles of 36 different video genres.</li>
+              <li>Utilized LSTM model and fine-tuned BERT model, achieving F1-scores of 0.7824 and 0.9382 respectively.</li>
+              <li>Attempted Neural Architecture Search and ONNX optimization methods to improve the model's accuracy.</li>
+            </ul>
+          </td>
+        </tr>
 
-    <h2>PROJECTS</h2>
+        <tr>
+          <td style="vertical-align: top; padding: 10px; border: 1px solid #ccc;">
+            Machine Learning Project Intern<br>
+            <small>[Jan 2023 - May 2023]</small>
+          </td>
+          <td style="vertical-align: top; padding: 10px; border: 1px solid #ccc;">
+            <ul>
+              <li>Trained a Pix2Pix model for recoloring images to help with diagnosing patients with color vision deficiency.</li>
+              <li>The GAN-generated images had an error rate of less than 0.05 (MSE) compared to the actual simulated images.</li>
+              <li>Configured the model to perform recoloring on videos as well. We learned/used Agile methodology in this project.</li>
+            </ul>
+          </td>
+        </tr>
 
-    <div class="project">
-      <h4>Unified Multimodal Embeddings | <i>PyTorch, Transformers</i><small>[Apr 2025 - May 2025]</small></h4>
-      <ul>
-        <li>Utilized BERT (text), CLIP (image), and CLAP (audio) to project information into a shared embedding space.</li>
-        <li>Implemented cross-modal retrieval with FAISS indexing and visualized modality alignment using UMAP.</li>
-      </ul>
-    </div>
+      </tbody>
+    </table>
 
-    <div class="project">
-      <h4>Visual Question Answering | <i>PyTorch, Transformers, PEFT</i><small>[Dec 2023 - Mar 2024]</small></h4>
-      <ul>
-        <li>Trained a Deep Generative model (BERT + ViT) using QLoRA to answer questions based on a given image.</li>
-        <li>Compressed the model by 73.6% (778 MB -> 205 MB) while slightly compensating accuracy and inference time.</li>
-      </ul>
-    </div>
+      <h2>PROJECTS</h2> 
+      <table style="width:100%; border-collapse: collapse; border: 1px solid #ccc;">
+        <tbody>
 
-    <div class="project">
-      <h4>Lane Line Detection | <i>TensorFlow</i><small>[Oct 2023 - Nov 2023]</small></h4>
-      <ul>
-        <li>Developed a model using U-Net architecture which performs semantic segmentation to detect lane lines.</li>
-        <li>Utilized CULane dataset with 9 categories of lane images for training the model. Achieved 84.4% accuracy.</li>
-      </ul>
-    </div>
+          <tr>
+            <td style="vertical-align: top; padding: 10px; border: 1px solid #ccc;">
+              Unified Multimodal Embeddings<br>
+              <small>PyTorch, Transformers</small>
+              <small>[Apr 2025 - May 2025]</small>
+            </td>
+            <td style="vertical-align: top; padding: 10px; border: 1px solid #ccc;">
+              <ul>
+                <li>Utilized BERT (text), CLIP (image), and CLAP (audio) to project information into a shared embedding space.</li>
+                <li>Implemented cross-modal retrieval with FAISS indexing and visualized modality alignment using UMAP.</li>
+              </ul>
+            </td>
+          </tr>
 
-    <div class="project">
-      <h4>Real Time Enemy Detection | <i>OpenCV, PyAutoGUI</i><small>[May 2023 - June 2023]</small></h4>
-      <ul>
-        <li>Trained a custom YOLOv7 object detection model to identify specific in-game enemies with high accuracy.</li>
-        <li>Built an automatic real-time system that detects and auto-eliminates enemies while playing the game.</li>
-      </ul>
-    </div>
+          <tr>
+            <td style="vertical-align: top; padding: 10px; border: 1px solid #ccc;">
+              Visual Question Answering<br>
+              <small>PyTorch, Transformers, PEFT</small>
+              <small>[Dec 2023 - Mar 2024]</small>
+            </td>
+            <td style="vertical-align: top; padding: 10px; border: 1px solid #ccc;">
+              <ul>
+                <li>Trained a Deep Generative model (BERT + ViT) using QLoRA to answer questions based on a given image.</li>
+                <li>Compressed the model by 73.6% (778 MB -> 205 MB) while slightly compensating accuracy and inference time.</li>
+              </ul>
+            </td>
+          </tr>
 
-    <div class="project">
-      <h4>Heart Disease Prediction | <i>Scikit Learn, Hyperopt</i><small>[Dec 2022 - Apr 2023]</small></h4>
-      <ul>
-        <li>Improved XGBoost accuracy (81.34% -> 85.32%) using Bayesian optimization and Stratified K-Fold cross-validation.</li>
-        <li>Evaluated the model with PR curve (AUC 0.941), permutation feature importance, and learning curve analysis.</li>
-      </ul>
-    </div>
+          <tr>
+            <td style="vertical-align: top; padding: 10px; border: 1px solid #ccc;">
+              Lane Line Detection<br>
+              <small>TensorFlow</small>
+              <small>[Oct 2023 - Nov 2023]</small>
+            </td>
+            <td style="vertical-align: top; padding: 10px; border: 1px solid #ccc;">
+              <ul>
+                <li>Developed a model using U-Net architecture which performs semantic segmentation to detect lane lines.</li>
+                <li>Utilized CULane dataset with 9 categories of lane images for training the model. Achieved 84.4% accuracy.</li>
+              </ul>
+            </td>
+          </tr>
 
-    <h2>VOLUNTEERING</h2>
+          <tr>
+            <td style="vertical-align: top; padding: 10px; border: 1px solid #ccc;">
+              Real Time Enemy Detection<br>
+              <small>OpenCV, PyAutoGUI</small>
+              <small>[May 2023 - June 2023]</small>
+            </td>
+            <td style="vertical-align: top; padding: 10px; border: 1px solid #ccc;">
+              <ul>
+                <li>Trained a custom YOLOv7 object detection model to identify specific in-game enemies with high accuracy.</li>
+                <li>Built an automatic real-time system that detects and auto-eliminates enemies while playing the game.</li>
+              </ul>
+            </td>
+          </tr>
 
-    <div class="volunteering">
-      <h4>Quantum Self-Driving Neural Networks <small>[Jun 2023 - Aug 2023]</small></h4>
-      <ul>
-        <li>Worked with a team of 20 in building Deep Learning models to predict the steering angle for self-driving cars.</li>
-        <li>Attempted to integrate the model with Variational Quantum Algorithms (4 qubits) to improve performance.</li>
-      </ul>
-    </div>
+          <tr>
+            <td style="vertical-align: top; padding: 10px; border: 1px solid #ccc;">
+              Heart Disease Prediction<br>
+              <small>Scikit Learn, Hyperopt</small>
+              <small>[Dec 2022 - Apr 2023]</small>
+            </td>
+            <td style="vertical-align: top; padding: 10px; border: 1px solid #ccc;">
+              <ul>
+                <li>Improved XGBoost accuracy (81.34% -> 85.32%) using Bayesian optimization and Stratified K-Fold cross-validation.</li>
+                <li>Evaluated the model with PR curve (AUC 0.941), permutation feature importance, and learning curve analysis.</li>
+              </ul>
+            </td>
+          </tr>
 
-    <h2>EDUCATION</h2>
+        </tbody>
+      </table>
 
-    <div class="education">
+      <h2>VOLUNTEERING</h2>
+      <table style="width:100%; border-collapse: collapse; border: 1px solid #ccc;">
+        <tbody>
+          <tr>
+            <td style="vertical-align: top; padding: 10px; border: 1px solid #ccc;">
+              Quantum Self-Driving Neural Networks<br>
+              <small>[Jun 2023 - Aug 2023]</small>
+            </td>
+            <td style="vertical-align: top; padding: 10px; border: 1px solid #ccc;">
+              <ul>
+                <li>Worked with a team of 10 in building Deep Learning models to predict the steering angle for self-driving cars.</li>
+                <li>Attempted to integrate the model with Variational Quantum Algorithms (4 qubits) to improve performance.</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>EDUCATION</h2>
       <h4>B.Tech - Information Technology <small>[Dec 2020 - May 2024]</small></h4>
       <p>CGPA: 8.52</p>
-    </div>
 
-    <h2>BACKGROUND IMAGE CREDIT</h2>
-
-    <div class="background">
+      <h2>BACKGROUND IMAGE CREDIT</h2>
       <h4><small>https://unsplash.com/photos/a-grassy-field-with-trees-under-a-night-sky-KURBjBG-Sno</small></h4>
       <p>My heartfelt thanks to the photographer for capturing this amazing scenery.</p>
-    </div>
   </div>
 
 </body>
